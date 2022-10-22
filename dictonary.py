@@ -1,4 +1,3 @@
-from email import message
 from pprint import pprint
 import requests as req
 import json as js
@@ -13,4 +12,4 @@ def dicto(command):
     example=info[0]["meanings"][0]["definitions"][0]['example']
 
     return [message,example]
-dicto("hello")
+#dicto("hello")
